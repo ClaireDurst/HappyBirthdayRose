@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+  <html lang ="en">
+    <head>
+
+        <meta charset="utf-8">
+        <title>Rose's Birthday Quiz!!!!</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="./Assets/CSS/style.css">
+        <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+    <body>
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center">Happy Birthday Rose!!!</h1>
+          <div class="mainArea col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div id= "timer"><br><span id="timer"></span></br>
+
+</div>
+    <div class="container">
+
+     <!-- /container -->
+<div id= "starter">
+<form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">
+
+<li><div class="question">1. How does Ororo accept payment for hard babysitting jobs?</div></li>
+<input id="answer" type="radio" name="group1" value="wrong"> chocolate<br>
+<input id="answer" type="radio" name="group1" value="wrong"> money<br>
+<input id="answer" type="radio" name="group1" value="wrong"> hugs<br>
+<input id="answer" type="radio" name="group1" value="correct"> shoes<hr>
+
+<li><div class="question">2. What should you never give Rachel?</div></li>
+<input id="answer" type="radio" name="group2" value="wrong">dirt<br>
+<input id="answer" type="radio" name="group2" value="correct">chocolate<br>
+<input id="answer" type="radio" name="group2" value="wrong">a gun<br>
+<input id="answer" type="radio" name="group2" value="wrong"> toothbrush<hr>
+
+<li><div class="question">3. Who introduced rose and claire?</div></li>
+<input id="answer" type="radio" name="group3" value="wrong">a meme<br>
+<input id="answer" type="radio" name="group3" value="wrong"> who?<br>
+<input id="answer" type="radio" name="group3" value="wrong"> they're enemies<br>
+<input id="answer" type="radio" name="group3" value="correct" >Enigma<hr>
+
+
+<li><div class="question">4. What is ororo's pet name for rachel?</div></li>
+<input id="answer" type="radio" name="group4" value="correct"> muppet<br>
+<input id="answer" type="radio" name="group4" value="wrong"> elmo<br>
+<input id="answer" type="radio" name="group4" value="wrong"> poo bear<br>
+<input id="answer" type="radio" name="group4" value="wrong"> squishface<hr>
+
+<li><div class="question">5. What is Rachel's stuffed rabbit named?</div></li>
+<input id="answer" type="radio" name="group5" value="wrong">howard<br>
+<input id="answer" type="radio" name="group5" value="wrong">my dog ate this option<br>
+<input id="answer" type="radio" name="group5" value="correct">Bunny<br>
+<input id="answer" type="radio" name="group5" value="wrong">Ororo<hr>
+
+<li><div class="question">6. How many years have Claire and Rose been friends?</div></li>
+<input id="answer" type="radio" name="group6" value="wrong">100<br>
+<input id="answer" type="radio" name="group6" value="wrong"> 1<br>
+<input id="answer" type="radio" name="group6" value="wrong"> 10<br>
+<input id="answer" type="radio" name="group6" value="correct" >3.5<hr>
+
+<li><div class="question">7. I made this for your ____?</div></li>
+<input id="answer" type="radio" name="group7" value="wrong"> christmas<br>
+<input id="answer" type="radio" name="group7" value="wrong"> no pants day<br>
+<input id="answer" type="radio" name="group7" value="correct"> birthday<br>
+<input id="answer" type="radio" name="group7" value="wrong"> arbor day!<hr>
+
+</form>
+
+</div>
+
+<div id="results"><button class="submit" >Submit</button>
+
+</div>
+</div>
+  <div class="Tally">
+    <h2>Questions Left:
+    <span id= "QuestionsRemaining"></span>
+    <br>
+        Correct:
+
+      <span id= "Correct"></span>
+      </br>
+      Incorrect: 
+      <span id= "Incorrect"></span>
+    </h2>
+  </div>
+  
+        <script src="./Assets/Javascript/java.js"></script>
+
+    </body>
+    </script>
+  </html>
